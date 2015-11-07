@@ -3,7 +3,7 @@
 ## Task
 design a user interface supporting selection/entry of data collection facilities
 
-## Description
+## Scientific Background
 Diffraction data sets are primarily collected a synchrotron beamline, with a minor fraction collected at home sources. There are a limited number of synchrotron facilities, each with a limited number of beamlines (for order of magnitude estimates, 10 synchrotrons each with 8-12 beamlines).
 
 The facilities all around the world are listed in below page
@@ -12,6 +12,7 @@ https://en.wikipedia.org/wiki/List_of_synchrotron_radiation_facilities
 ## Technical Background
 Users interface with the databank through a django web front-end, backed by a postgresql database.
 
+## Description
 I took below listed data that user will input
 
 1) Serial number
