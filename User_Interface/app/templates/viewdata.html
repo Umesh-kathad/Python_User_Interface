@@ -1,0 +1,28 @@
+<h2> SBGrid Data Submission </h2>
+<form action ="" method ="Post"> {% csrf_token %}
+	<table>
+		<tr>
+      		<td align="left">Sr no:</td>
+      		<td align="left"><input type="integer" name="snum" /></td>
+    	</tr>
+    	<tr>
+      		<td align="left">Facility Name:</td>
+      		<td align="left"><input type="text" name="facility" /></td>
+    	</tr>
+    	<tr>
+      		<td align="left">Country:</td>
+      		<td align="left"><input type="text" name="country" /></td>
+    	</tr>
+    	<tr>
+      		<td align="left">Synchrotron:</td>
+      		<td align="left"><input type="integer" name="synchrotron" /></td>
+    	</tr>
+    	<tr>
+      		<td align="left">Beamline:</td>
+      		<td align="left"><input type="integer" name="beamline" /></td>
+    	</tr>
+		<tr>
+			<td align = "center"><input type ="submit" value = "Submit" /></td>
+		</tr>
+	</table>
+</form>

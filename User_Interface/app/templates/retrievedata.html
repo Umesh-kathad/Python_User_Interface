@@ -1,0 +1,31 @@
+<h1> Your Input Data </h1>
+{% if data_list %}
+<u1>
+{% for d in data_list %}
+	<li> 
+		<table>
+			<tr>
+      			<td align="left">Sr no:</td>
+      			<td align="left"> {{d.sr}} </td>
+    		</tr>
+    		<tr>
+      			<td align="left">Facility Name:</td>
+      			<td align="left"> {{d.facilityname}} </td>
+    		</tr>
+    		<tr>
+      			<td align="left">Country:</td>
+      			<td align="left"> {{d.country}} </td>
+    		</tr>
+    		<tr>
+      			<td align="left">Synchrotron:</td>
+      			<td align="left"> {{d.synchrotron}} </td>
+    		</tr>
+    		<tr>
+      			<td align="left">Beamline:</td>
+      			<td align="left"> {{d.beamline}} </td>
+    	</tr>
+    	</table>
+	</li>
+{% endfor %}
+</u1>
+{% endif %}
